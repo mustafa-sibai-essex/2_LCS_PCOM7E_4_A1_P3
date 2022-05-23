@@ -1,0 +1,5 @@
+clear;
+mysql;
+USE COMPANY1;
+SELECT ENAME, SAL FROM EMP e, DEPT d WHERE e.DEPTNO = d.DEPTNO AND d.LOC = 'Dallas';
+exit;

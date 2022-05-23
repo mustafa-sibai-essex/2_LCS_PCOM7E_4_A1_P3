@@ -1,0 +1,5 @@
+clear;
+mysql;
+USE COMPANY1;
+SELECT * FROM DEPT WHERE DEPTNO NOT IN (select DEPTNO FROM EMP);
+exit;
